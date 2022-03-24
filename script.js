@@ -12,9 +12,11 @@ function compute()
     result.innerHTML = "<p>If you deposit <mark>"+ principal.value +"</mark>,<br>at an interest rate of <mark>" + rate.value + "%</mark>.<br>You will receive an amount of <mark>"+interest+"</mark>,<br>in the year <mark>"+yearInFuture+"</mark>.</p>";
 }
 
-function refreshSlider(){
+function refreshSlider()
+{
 rate.value
-document.getElementById("rateLabel").innerText = rate.value + "%"}
+document.getElementById("rateLabel").innerText = rate.value + "%"
+}
 
 finishPage = () =>
 {
